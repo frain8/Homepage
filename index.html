@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Affordable and professional web design">
+    <meta name="keywords" content="web design, affordable web design">
+    <meta name="Author" content="WHW">
+
+    <link href="styles.css" rel="stylesheet">
+    <title>My First Webpage | Index</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1><span id="highlight">Acme
+            <script>
+  				    document.getElementById("highlight").onclick = function() {
+  				        location.href = "index.html";
+  				    };
+    			   </script>
+          </span> Web Design</h1>
+        </div>
+        <nav>
+          <ul>
+            <li class="current"><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="showcase">
+      <div class="container">
+        <h2>Affordable Proffesional Web Designer</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae tempus ex. Proin imperdiet orci eget massa auctor egestas. Etiam sodales quam in purus auctor pellentesque.</p>
+      </div>
+    </section>
+
+    <section id="newsletter">
+      <div class="container">
+        <h2>Subscribe To our Newsletter</h2>
+        <form>
+          <input type="email" placeholder="Enter Email...">
+          <button type="submit" class="button_1">Subscribe</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="boxes">
+      <div class="container">
+        <div class="box">
+          <img src="./img/logo_html.png" alt="html Picture">
+          <h3>HTML Markup</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae tempus ex. Proin imperdiet orci eget massa auctor egestas. Etiam sodales quam in purus auctor pellentesque.</p>
+        </div>
+        <div class="box">
+          <img src="./img/logo_css.png" alt="css3 Picture">
+          <h3>CSS3 Styling</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae tempus ex. Proin imperdiet orci eget massa auctor egestas. Etiam sodales quam in purus auctor pellentesque.</p>
+        </div>
+        <div class="box">
+          <img src="./img/logo_brush.png" alt="brush">
+          <h3>Graphic Design</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae tempus ex. Proin imperdiet orci eget massa auctor egestas. Etiam sodales quam in purus auctor pellentesque.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>Acme Web Design, Copyright &copy; 2020</p>
+    </footer>
+
+  </body>
+</html>
